@@ -1,0 +1,133 @@
+style.css
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(90deg, #ff6f61, #ffcb61);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* About Section */
+.about {
+    background: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Skills Section */
+.skills {
+    background: #ffcb61;
+    padding: 50px 0;
+    text-align: center;
+    color: #333;
+}
+
+.skills .skill {
+    margin: 20px 0;
+}
+
+.progress-bar {
+    width: 80%;
+    background: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.progress {
+    height: 100%;
+    background: #ff6f61;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}
+
+/* Projects Section */
+.projects {
+    background: #61c0ff;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+
+.project-card {
+    background: white;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section */
+.contact {
+    background: #ff6f61;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+
+#contact-form input, #contact-form textarea {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background: #fff;
+    color: #ff6f61;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#contact-form button:hover {
+    background: #ffcb61;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
